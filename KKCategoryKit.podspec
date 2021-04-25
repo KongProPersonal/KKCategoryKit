@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/827023449@qq.com/KKCategoryKit'
+  s.homepage         = 'https://github.com/KongProPersonal/KKCategoryKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '827023449@qq.com' => 'kongfanwu@mia.com' }
-  s.source           = { :git => 'https://github.com/827023449@qq.com/KKCategoryKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KongProPersonal/KKCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
