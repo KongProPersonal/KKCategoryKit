@@ -1,0 +1,22 @@
+{
+  "name": "KKCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of KKCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/827023449@qq.com/KKCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "827023449@qq.com": "kongfanwu@mia.com"
+  },
+  "source": {
+    "git": "https://github.com/827023449@qq.com/KKCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KKCategoryKit/Classes/**/*"
+}

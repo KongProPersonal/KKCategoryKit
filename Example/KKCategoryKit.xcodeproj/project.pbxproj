@@ -60,13 +60,13 @@
 		666F1A95946A18CD0F458725 /* Pods-KKCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-KKCategoryKit_Example/Pods-KKCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		69AFEF9FE460E352D156E483 /* Pods-KKCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKCategoryKit_Tests/Pods-KKCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75C09754A9DF667C0F046D5E /* KKCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKCategoryKit.podspec; path = ../KKCategoryKit.podspec; sourceTree = "<group>"; };
+		75C09754A9DF667C0F046D5E /* KKCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKCategoryKit.podspec; path = ../KKCategoryKit.podspec; sourceTree = "<group>"; };
 		8369C76506F1F647007F0688 /* Pods-KKCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKCategoryKit_Example/Pods-KKCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F47033949917DF3BD6C3A61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8F47033949917DF3BD6C3A61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A9D85BCEB899F2E60E8888C6 /* Pods-KKCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKCategoryKit_Tests/Pods-KKCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B166CEF519DD9C90768CC3A6 /* Pods_KKCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B396FFF7D405AE233E547FC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B396FFF7D405AE233E547FC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				69AFEF9FE460E352D156E483 /* Pods-KKCategoryKit_Tests.debug.xcconfig */,
 				A9D85BCEB899F2E60E8888C6 /* Pods-KKCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "827023449@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2NM57BU4V9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 8369C76506F1F647007F0688 /* Pods-KKCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2NM57BU4V9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKCategoryKit/KKCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "KKCategoryKit/KKCategoryKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 666F1A95946A18CD0F458725 /* Pods-KKCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2NM57BU4V9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKCategoryKit/KKCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "KKCategoryKit/KKCategoryKit-Info.plist";
